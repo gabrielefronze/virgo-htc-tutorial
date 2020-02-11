@@ -1,7 +1,7 @@
 universe = vanilla
 
-executable = /bin/echo
-arguments = """Hello world!"" >> ./my_test_output_file.txt"
+executable = /bin/uname
+arguments = -a
 transfer_output_files = ./my_test_output_file.txt
 
 log = std.log
