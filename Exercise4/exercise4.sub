@@ -1,8 +1,8 @@
 universe = vanilla
 
 transfer_input_files = ./my_input.txt
-executable = /bin/cat
-arguments = my_input.txt >> my_output.txt
+executable = /bin/cp
+arguments = my_input.txt my_output.txt
 transfer_output_files = my_output.txt
 
 log = std.log
