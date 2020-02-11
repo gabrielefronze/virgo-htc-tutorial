@@ -1,7 +1,7 @@
 universe = vanilla
 
-executable = /bin/uname
-arguments = -a
+executable = /bin/touch
+arguments = my_test_output_file.txt
 transfer_output_files = ./my_test_output_file.txt
 
 log = std.log
