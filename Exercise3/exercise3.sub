@@ -1,0 +1,17 @@
+universe = vanilla
+
+executable = /bin/echo
+arguments = ""Hello world!"" >> ./my_test_output_file.txt
+transfer_output_files = ./my_test_output_file.txt
+
+log = std.log
+output = std.out
+error = std.err
+
+ShouldTransferFiles = YES
+WhenToTransferOutput = ON_EXIT
+
+accounting_group = something.somethingelse.somethingmore
+accounting_group_user = albert.einstein
+
+queue 1

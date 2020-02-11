@@ -1,0 +1,18 @@
+universe = vanilla
+
+transfer_input_files = 
+executable =  
+arguments = 
+transfer_output_files =
+
+log = std.log
+output = std.out
+error = std.err
+
+ShouldTransferFiles = YES
+WhenToTransferOutput = ON_EXIT
+
+accounting_group = something.somethingelse.somethingmore
+accounting_group_user = albert.einstein
+
+queue 1

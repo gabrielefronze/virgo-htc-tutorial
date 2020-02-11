@@ -1,0 +1,16 @@
+universe = vanilla
+
+executable = /bin/ls
+arguments = -lrt .
+
+log = std.log
+output = std.out
+error = std.err
+
+ShouldTransferFiles = YES
+WhenToTransferOutput = ON_EXIT
+
+accounting_group = something.somethingelse.somethingmore
+accounting_group_user = albert.einstein
+
+queue 1
