@@ -12,7 +12,7 @@ error = std.err
 ShouldTransferFiles = YES
 WhenToTransferOutput = ON_EXIT
 
-accounting_group = something.somethingelse.somethingmore
+accounting_group = accounting_group_goes_here
 accounting_group_user = albert.einstein
 
 queue 1
