@@ -2,7 +2,7 @@ universe = vanilla
 
 transfer_input_files = ./script.sh
 executable = ./script.sh
-arguments = "This is my script!" > output.txt
+arguments = """This is my script!"" > output.txt"
 transfer_output_files = ./output.txt
 
 log = std.log
