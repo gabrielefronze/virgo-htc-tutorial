@@ -1,6 +1,5 @@
 universe = vanilla
 
-transfer_input_files = ./script.sh
 executable = ./script.sh
 arguments = test_argument
 transfer_output_files = ./surprise.txt
