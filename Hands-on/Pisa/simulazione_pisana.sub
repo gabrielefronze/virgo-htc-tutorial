@@ -1,0 +1,18 @@
+universe = vanilla
+
+transfer_input_files = ./config.json,./gwskysim
+executable = ./pisa_wrapper.sh
+transfer_executable = True
+arguments = config.json
+
+log = std.log
+output = std.out
+error = std.err
+
+ShouldTransferFiles = YES
+WhenToTransferOutput = ON_EXIT
+
+accounting_group = accounting_group_goes_here
+accounting_group_user = albert.einstein
+
+queue 1

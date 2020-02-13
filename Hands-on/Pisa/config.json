@@ -1,0 +1,61 @@
+{
+    "description": "Distribution and ranges of parameters of a Population of black holes",
+    "output_dir": null,
+    "random_seed": 42,
+    "population_name": "BBHsample1",
+    "source_type": "BBH",
+    "sources_per_file": 16,
+    "n_files": 10,
+    "parameters": {
+      "mass1": {
+        "distribution": "uniform",
+        "min": 50,
+        "max": 52
+      },
+      "mass2": {
+        "distribution": "uniform",
+        "min": 50,
+        "max": 52
+      },
+      "spin1z": {
+        "distribution": "uniform",
+        "min": 0.0,
+        "max": 0.05
+      },
+      "spin2z": {
+        "distribution": "uniform",
+        "min": 0.0,
+        "max": 0.05
+      },
+      "polarization": {
+        "distribution": "uniform",
+        "min": 0.0,
+        "max": 0.05
+      },
+      "coa_phase": {
+        "distribution": "uniform",
+        "min": 0.0,
+        "max": 0.05
+      },
+      "inclination": {
+        "distribution": "cos",
+        "min": 0.0,
+        "max": 0.05
+      },
+      "SNR": {
+        "distribution": "uniform",
+        "min": 50,
+        "max": 52
+      },
+      "ra": {
+        "distribution": "uniform",
+        "min": 0.0,
+        "max": 6.2832
+      },
+      "dec": {
+        "distribution": "sin",
+        "min": -1.5708,
+        "max": 1.5708
+      }
+    }
+}
