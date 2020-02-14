@@ -1,0 +1,20 @@
+universe = vanilla
+
+transfer_input_files = /storage/gpfs_virgo3/home/astone/OFFICIAL_PACKAGES_SVN/ALL_SKY_advancedMEX/HFDF/for_testing/HFDF
+executable = /storage/gpfs_virgo3/home/astone/OFFICIAL_PACKAGES_SVN/ALL_SKY_advancedMEX/HFDF/for_testing/run_HFDF.sh
+arguments = /opt/exp_software/virgo/matlab_compiler_runtime/v90 /storage/gpfs_virgo4/virgo4/virgo/RomePSS/H/hfdf/O2/C02_NewAllRun/256Hz/input/2018-04-16/ O2LH_01_0127 067_-81.305_-90.000 /storage/gpfs_virgo3/home/aeinstein/ 0.99 20 0 -1.0*10^-8 -2.0*10^-9 0 0
+# transfer_output_files = 
+
+log = std.log
+output = std.out
+error = std.err
+
+ShouldTransferFiles = YES
+WhenToTransferOutput = ON_EXIT
+
+accounting_group = something.somethingelse.somethingmore
+accounting_group_user = albert.einstein
+
+request_memory = 6 GB
+
+queue 1
