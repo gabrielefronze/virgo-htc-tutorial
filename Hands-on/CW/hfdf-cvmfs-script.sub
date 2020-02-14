@@ -14,4 +14,8 @@ accounting_group_user = albert.einstein
 
 request_memory = 6 GB
 
+use_x509userproxy = true
++Owner = undefined
++LeaveJobInQueue = ( StageOutFinish > 0 ) =!= true
+
 queue 1
