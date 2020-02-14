@@ -9,8 +9,8 @@ error = std.err
 ShouldTransferFiles = YES
 WhenToTransferOutput = ON_EXIT
 
-accounting_group = something.somethingelse.somethingmore
-accounting_group_user = albert.einstein
+accounting_group = ligo.dev.o3.cw.allskyisolated.freqhough
+accounting_group_user = gabriele.fronze
 
 request_memory = 6 GB
 
