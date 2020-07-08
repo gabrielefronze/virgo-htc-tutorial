@@ -9,8 +9,8 @@ log = std.log
 output = std.out
 error = std.err
 
-ShouldTransferFiles = YES
-WhenToTransferOutput = ON_EXIT
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
 
 accounting_group = something.somethingelse.somethingmore
 accounting_group_user = albert.einstein
