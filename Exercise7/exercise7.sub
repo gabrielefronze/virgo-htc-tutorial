@@ -1,0 +1,22 @@
+universe = vanilla
+
+transfer_input_files = /cvmfs/oasis.opensciencegrid.org/ligo/frames/📥 //declare the necessary inputs
+executable = /cvmfs/virgo.ego-gw.it/⚙️ //path to executable
+arguments = ⚙️ //executable args
+transfer_output_files = 📤 //declare the outputs here
+
+log = std.log
+output = std.out
+error = std.err
+
+should_transfer_files = NO //since already distributed
+when_to_transfer_output = ON_EXIT
+transfer_executable = True/False //Make your choice
+
+use_x509userproxy = true
+requirements = (HAS_LIGO_FRAMES=?=True)
+
+accounting_group = accounting_group_goes_here
+accounting_group_user = albert.einstein
+
+queue 1
